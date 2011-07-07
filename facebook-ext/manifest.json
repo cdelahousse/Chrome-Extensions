@@ -1,0 +1,11 @@
+{
+  "name": "Facebook Username Prefill",
+  "version": "1.0",
+  "description": "Blah",
+	"content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}

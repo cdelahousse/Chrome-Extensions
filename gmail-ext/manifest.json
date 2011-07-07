@@ -1,0 +1,11 @@
+{
+  "name": "Google Accounts Username Prefill",
+  "version": "1.0",
+  "description": "Blah",
+	"content_scripts": [
+    {
+      "matches": ["*://www.google.com/accounts/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}

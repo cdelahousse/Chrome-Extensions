@@ -1,0 +1,12 @@
+{
+  "name": "Google Reader Fullscreen",
+  "version": "1.0",
+  "description": "In Google Reader, full screen mode will be displayed upon loading the app without needing to press 'f'.",
+	"content_scripts": [
+    {
+      "matches": ["*://www.google.com/reader/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+  
+}
